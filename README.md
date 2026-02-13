@@ -61,4 +61,8 @@ Je vous fournis ici le code qui vous permet de visualiser le notebook de code da
 
 La fréquence d'affichage des données n'est pas uniforme sur l'ensemble des lignes de bus. Dans certains cas, l'intervalle entre les valeurs de données dépasse 30 secondes (l'intervalle défini entre chaque ligne GPS). Un algorithme est appliqué pour générer de nouvelles lignes de données GPS à la fréquence appropriée. Les nouvelles variables de latitude et de longitude sont calculées par interpolation linéaire, ce qui détermine les valeurs intermédiaires entre les points de données avec une marge d'erreur minimale. La figure « a » montre les données avant interpolation linéaire (entre 16h18 et 16h20) ; aucune donnée n'est affichée sur le panneau d'affichage du bus FLXL-95. La figure « b » montre les données correctes après interpolation linéaire.
 
+![](https://github.com/fcabrerag/bunching_FR/blob/7dfd9837c3790a012cd7e4b25a73f3629ad33f4e/images/data_interpolation.png)
+
+
+
 ![](https://github.com/fcabrerag/pro_investigacion/blob/main/imagenes/data_interpolation.png)
