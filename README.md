@@ -4,6 +4,8 @@ Problèmes constatés dans l'ensemble de données:
 
 1.- En réalisant une révision initiale des données, nous pouvons découvrir que des voyages en bus existent dans un délai déterminé qui est hors de l'itinéraire de voyage qui doit réaliser le bus normalement (par exemple : une réparation, un détour par rapport à l'itinéraire, etc). En conséquence, ces données doivent être exclues de l’ensemble de données.
 
+2.- Les données sont une série temporelle avec une périodicité fixe (30 secondes entre chaque enregistrement). Cependant, des intervalles plus longs entre les enregistrements sont observés.
+
 
 
 ### 2.1- Validation de l'emplacement: ( Problème 1): 
@@ -19,4 +21,8 @@ L'une des opérations définies dans Geopandas est « within », qui permet de v
 L'image suivante présente les résultats obtenus après l'opération de jointure spatiale. Les trajets de bus incorrects ont ainsi été supprimés de l'ensemble de données.
 
 ![](https://github.com/fcabrerag/pro_investigacion/blob/main/imagenes/Rows_GPS_20180803.png)
+
+
+### 2.2- Validation de l'emplacement: ( Problème 2): 
+
 
