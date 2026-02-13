@@ -1,4 +1,4 @@
-## Bonjour:
+# Bonjour:
 Ce dépôt a pour but de présenter mon travail de mémoire de maîtrise sur le phénomène des «Bus Bunching». Il vise à illustrer certaines étapes de l'analyse, de la visualisation, du nettoyage et du traitement des données.
 
 Ce qui suit explique le contenu de chaque section :
