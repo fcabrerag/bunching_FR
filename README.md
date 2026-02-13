@@ -12,21 +12,21 @@ Les données historiques utilisées proviennent du système de géolocalisation 
 
 ## 1.2- Description des variables:
 
-patente: Identifiant du bus. Elle est composée de quatre lettres suivies de deux chiffres ou de deux lettres suivies de quatre chiffres, selon l'âge du bus(Plaque d'immatriculation).
+#patente: identifiant du bus. Elle est composée de quatre lettres suivies de deux chiffres ou de deux lettres suivies de quatre chiffres, selon l'âge du bus(plaque d'immatriculation).
 
-fechamuestreo : Date de collecte des données de géolocalisation.
+#fechamuestreo : date de collecte des données de géolocalisation.
 
-latitud : Distance, mesurée en degrés, entre un parallèle et l'équateur. Un signe négatif indique l'hémisphère sud.
+#latitud : distance, mesurée en degrés, entre un parallèle et l'équateur. Un signe négatif indique l'hémisphère sud.
 
-longitud : Arc de cercle mesuré entre le méridien de Greenwich et le méridien passant par le point considéré. Elle est mesurée en degrés et ses valeurs sont comprises entre 0° et 180°.
+#longitud : arc de cercle mesuré entre le méridien de Greenwich et le méridien passant par le point considéré. Elle est mesurée en degrés et ses valeurs sont comprises entre 0° et 180°.
 
-num_paradero : Variable numérique indiquant l'arrêt que le bus vient de traverser.
+#num_paradero : variable numérique indiquant l'arrêt que le bus vient de traverser.
 
-grupo : Variable numérique indiquant le numéro du trajet effectué ce jour-là par un bus donné.
+#grupo : variable numérique indiquant le numéro du trajet effectué ce jour-là par un bus donné.
 
-dist30s: distance parcourue par le bus en 30 secondes.
+#dist30s: distance parcourue par le bus en 30 secondes.
 
-dist_total: Cela correspond à la distance parcourue par le bus jusqu'au point de son trajet où il se trouve(distance parcourue cumulée).
+#dist_total: cela correspond à la distance parcourue par le bus jusqu'au point de son trajet où il se trouve(distance parcourue cumulée).
 
 *** Un voyage en bus est constitué d'un ensemble d'enregistrements (groupe de motifs).
 
