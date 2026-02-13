@@ -1,6 +1,6 @@
 ## 2.-Nettoyage et traitement des données manquantes:
 
-Problèmes constatés dans l'ensemble de données:
+#Problèmes constatés dans l'ensemble de données:
 
 1.- En réalisant une révision initiale des données, nous pouvons découvrir que des voyages en bus existent dans un délai déterminé qui est hors de l'itinéraire de voyage qui doit réaliser le bus normalement (par exemple : une réparation, un détour par rapport à l'itinéraire, etc). En conséquence, ces données doivent être exclues de l’ensemble de données.
 
