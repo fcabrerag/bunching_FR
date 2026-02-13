@@ -17,7 +17,7 @@ Il existe différentes approches pour résoudre ce problème. Je souhaite notamm
 
 L'une des opérations définies dans Geopandas est « within », qui permet de vérifier si un point GPS se situe à l'intérieur d'un polygone (ce dernier devant être chargé au préalable). Après cette jointure spatiale, les données ne répondant pas à la condition spécifiée peuvent être exclues.
 
-L'image suivante présente les résultats obtenus après l'opération de jointure spatiale. Les trajets de bus incorrects ont ainsi été supprimés de l'ensemble de données.Cet exemple concerne l'ensemble de données correspondant à la journée du 03/08/2018.
+L'image suivante présente les résultats obtenus après l'opération de jointure spatiale. Les trajets de bus incorrects ont ainsi été supprimés de l'ensemble de données.Cet exemple concerne l'ensemble de données correspondant à la journée du 03/08/2018 pour la ligne de bus T201 de la compagnie « Subus » à Santiago, au Chili.
 
 ![](https://github.com/user-attachments/assets/5de0f9db-618f-4518-b855-47a0cb5f3606)
 
