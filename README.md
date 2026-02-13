@@ -22,8 +22,8 @@ L'image suivante présente les résultats obtenus après l'opération de jointur
 ![](https://github.com/user-attachments/assets/5de0f9db-618f-4518-b855-47a0cb5f3606)
 
 Je vous fournis ici le code qui vous permet de visualiser le notebook de code dans Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/drive/1CYkA3KOp8I6KxDLdf6SD3Gf96vM-4MoK)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CYkA3KOp8I6KxDLdf6SD3Gf96vM-4MoK)
 
 ### 2.2- Interpolation de données(Problème 2): 
 
