@@ -20,7 +20,7 @@ L'une des opérations définies dans Geopandas est « within », qui permet de v
 
 L'image suivante présente les résultats obtenus après l'opération de jointure spatiale. Les trajets de bus incorrects ont ainsi été supprimés de l'ensemble de données.
 
-![](https://github.com//fcabrerag/bunching_FR/images/Rows_GPS_20180803.png)
+![](https://github.com//fcabrerag/bunching_FR/blob/main/images/Rows_GPS_20180803.png)
 
 
 ### 2.2- Interpolation de données(Problème 2): 
