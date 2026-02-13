@@ -63,6 +63,4 @@ La fréquence d'affichage des données n'est pas uniforme sur l'ensemble des lig
 
 ![](https://github.com/fcabrerag/bunching_FR/blob/7dfd9837c3790a012cd7e4b25a73f3629ad33f4e/images/data_interpolation.png)
 
-
-
 ![](https://github.com/fcabrerag/pro_investigacion/blob/main/imagenes/data_interpolation.png)
