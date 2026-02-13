@@ -1,3 +1,13 @@
+## Bonjour:
+Ce dépôt a pour but de présenter mon travail de mémoire de maîtrise sur le phénomène des «Bus Bunching». Il vise à illustrer certaines étapes de l'analyse, de la visualisation, du nettoyage et du traitement des données.
+
+Ce qui suit explique le contenu de chaque section :
+
+1. Contexte et jeu de données : Présente une brève description du problème étudié, ainsi qu’une description du jeu de données.
+2. Nettoyage et traitement des données manquantes : Expose les problèmes rencontrés dans le jeu de données et propose des stratégies de résolution permettant d’obtenir un jeu de données cohérent.
+
+## 1. Contexte et jeu de données:
+
 ## 2.-Nettoyage et traitement des données manquantes:
 
 ## Problèmes constatés dans l'ensemble de données:
@@ -6,7 +16,6 @@
 
 
 2.- Les données sont une série temporelle avec une périodicité fixe (30 secondes entre chaque enregistrement). Cependant, des intervalles plus longs entre les enregistrements sont observés.
-
 
 
 ### 2.1- Validation de l'emplacement( Problème 1): 
