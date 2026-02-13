@@ -11,6 +11,7 @@ Ce qui suit explique le contenu de chaque section :
 Les données historiques utilisées proviennent du système de géolocalisation automatique des véhicules (AVL) de la ligne de bus « T201 » à Santiago, au Chili. Elles correspondent aux trajets effectués par cette ligne au cours du mois d'août 2018.
 
 ## 1.2- Description des variables:
+Les variables utilisées dans les exemples sont décrites ci-dessous:
 
 patente: identifiant du bus. Elle est composée de quatre lettres suivies de deux chiffres ou de deux lettres suivies de quatre chiffres, selon l'âge du bus(plaque d'immatriculation).
 
