@@ -8,7 +8,7 @@
 
 
 
-### 2.1- Validation de l'emplacement: ( Problème 1): 
+### 2.1- Validation de l'emplacement( Problème 1): 
 
 Comment valider la position d'un bus lors d'un trajet ? Je dispose d'un jeu de données de coordonnées GPS de bus et je souhaite vérifier si certaines conditions définies dans l'énoncé du problème sont remplies.
 
@@ -23,6 +23,8 @@ L'image suivante présente les résultats obtenus après l'opération de jointur
 ![](https://github.com/fcabrerag/pro_investigacion/blob/main/imagenes/Rows_GPS_20180803.png)
 
 
-### 2.2- Validation de l'emplacement: ( Problème 2): 
+### 2.2- Interpolation de données(Problème 2): 
 
+L'échantillonnage des données ne présente pas la même fréquence pour tous les trajets de bus. Occasionnellement, les intervalles entre les valeurs des données dépassent 30 secondes (l'intervalle de temps défini entre chaque ligne GPS). Un algorithme a été appliqué pour générer de nouvelles lignes de données GPS avec la fréquence correcte. Les nouvelles variables de latitude et de longitude ont été calculées par interpolation linéaire, qui détermine les valeurs intermédiaires entre deux points de données avec une erreur minimale. L'image ci-dessous compare l'état initial et l'état après correction par l'algorithme.
 
+![](https://github.com/fcabrerag/pro_investigacion/blob/main/imagenes/data_interpolation.png)
