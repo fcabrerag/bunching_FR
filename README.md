@@ -10,7 +10,7 @@ Ce qui suit explique le contenu de chaque section :
 
 Les données historiques utilisées proviennent du système de géolocalisation automatique des véhicules (AVL) de la ligne de bus « T201 » à Santiago, au Chili. Elles correspondent aux trajets effectués par cette ligne au cours du mois d'août 2018.
 
-# Qu'est-ce que le "Bus Bunching"?
+## Qu'est-ce que le "Bus Bunching"?
 
 Le phénomène de regroupement de bus(Bus Bunching) est le principal problème affectant la régularité du réseau de bus urbains. Un regroupement de bus se définit comme l'intervalle de temps durant lequel un bus circule aux côtés d'au moins un autre bus de la même ligne, séparés par un intervalle inférieur à une certaine fraction de l'intervalle prévu. Cet intervalle correspond à la différence de temps entre deux bus empruntant le même itinéraire lorsqu'ils atteignent le même point, et représente également un écart dans leurs temps de parcours.
 
