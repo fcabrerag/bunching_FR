@@ -33,7 +33,7 @@ dist_total: cela correspond à la distance parcourue par le bus jusqu'au point d
 
 ## 2.-Nettoyage et traitement des données manquantes:
 
-## Problèmes constatés dans l'ensemble de données:
+## Problèmes constatés dans le jeu de données:
 
 1.- Lors d'un premier examen des données, nous constatons que certains trajets effectués par un bus (identifié par une plaque d'immatriculation spécifique) se situent en dehors de son itinéraire habituel. Par exemple : lorsqu'un bus est soumis à un contrôle technique ou lorsqu'un conducteur l'utilise à des fins autres que le service de transport.Par conséquent, ces données doivent être exclues de l'ensemble de données.
 
