@@ -6,13 +6,14 @@ Ce qui suit explique le contenu de chaque section :
 1. Contexte et jeu de données : Présente une brève description du problème étudié, ainsi qu’une description du jeu de données.
 2. Nettoyage et traitement des données manquantes : Expose les problèmes rencontrés dans le jeu de données et propose des stratégies de résolution permettant d’obtenir un jeu de données cohérent.
 
+## Qu'est-ce que le "Bus Bunching"?
+
+Le phénomène de regroupement de bus(Bus Bunching) est le principal problème affectant la régularité du réseau de bus urbains. Un regroupement de bus se définit comme l'intervalle de temps durant lequel un bus circule aux côtés d'au moins un autre bus de la même ligne, séparés par un intervalle inférieur à une certaine fraction de l'intervalle prévu. Cet intervalle correspond à la différence de temps entre deux bus empruntant le même itinéraire lorsqu'ils atteignent le même point, et représente également un écart dans leurs temps de parcours.
+
 ## 1. Contexte et jeu de données:
 
 Les données historiques utilisées proviennent du système de géolocalisation automatique des véhicules (AVL) de la ligne de bus « T201 » à Santiago, au Chili. Elles correspondent aux trajets effectués par cette ligne au cours du mois d'août 2018.
 
-## Qu'est-ce que le "Bus Bunching"?
-
-Le phénomène de regroupement de bus(Bus Bunching) est le principal problème affectant la régularité du réseau de bus urbains. Un regroupement de bus se définit comme l'intervalle de temps durant lequel un bus circule aux côtés d'au moins un autre bus de la même ligne, séparés par un intervalle inférieur à une certaine fraction de l'intervalle prévu. Cet intervalle correspond à la différence de temps entre deux bus empruntant le même itinéraire lorsqu'ils atteignent le même point, et représente également un écart dans leurs temps de parcours.
 
 ## 1.2- Description des variables:
 Les variables utilisées dans les exemples sont décrites ci-dessous:
