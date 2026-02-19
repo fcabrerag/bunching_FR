@@ -68,4 +68,35 @@ La fréquence d'affichage des données n'est pas uniforme sur l'ensemble des lig
 
 ![](https://github.com/fcabrerag/bunching_FR/blob/7dfd9837c3790a012cd7e4b25a73f3629ad33f4e/images/data_interpolation.png)
 
-![](https://github.com/fcabrerag/pro_investigacion/blob/main/imagenes/data_interpolation.png)
+### 3.-Calcul du "Bunching Bus":
+
+### 3.1- Construction d'une structure de données de fenêtre:
+
+Pour le calcul du bunching, on utilise une structure de données basée sur des fenêtres temporelles d’une durée de 30 secondes.
+Chaque fenêtre possède un identifiant unique appelé n_ventana.
+
+Une journée est divisée en fenêtres consécutives de 30 secondes, à partir de 05:00:00 jusqu’à 23:59:59, qui correspondent respectivement à l’heure de début et de fin du service quotidien de bus.
+
+Chaque fenêtre a la structure suivante :
+
+début,fin,n_ventana 2018-08-01 05:00:00 ,2018-08-01 05:00:29, 1
+
+Chaque enregistrement du dataset doit être associé à un numéro de fenêtre en fonction de la valeur de sa variable "fechamuestreo".
+
+Par exemple, si le bus immatriculé "WB-1026" possède la valeur suivante pour la variable "fechamuestreo" : 2018-08-01 05:00:00
+
+Alors il doit être associé à n_ventana = 1.
+
+
+**Quel problème ai-je rencontré ?**
+
+En 2021, lors de la rédaction de ma thèse, j’ai mis en place une structure de données basée sur des fenêtres temporelles, puis j’ai déterminé à quelle fenêtre appartenait chaque enregistrement du jeu de données.
+
+**Cependant, chaque exécution prenait environ une minute uniquement pour identifier la fenêtre correspondant à l’ensemble des enregistrements d’une seule journée.**
+
+Compte tenu du volume important de données, cette méthode s’est révélée inefficace.
+
+
+Je vous invite à consulter le code afin que vous puissiez voir le problème en détail:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10zqlI_yS6ojk6_hWcgGzOo87rVh3PBfn)
