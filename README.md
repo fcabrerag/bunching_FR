@@ -76,7 +76,7 @@ Chaque fenêtre a la structure suivante :
 
 | début | fin | n_ventana|
 | --- | --- | --- |
-|2018-08-01 05:00:00 | |2018-08-01 05:00:29| |1|
+|2018-08-01 05:00:00 | 2018-08-01 05:00:29| 1|
 
 début,fin,n_ventana 
 
