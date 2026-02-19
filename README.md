@@ -74,7 +74,11 @@ Une journée est divisée en fenêtres consécutives de 30 secondes, à partir d
 
 Chaque fenêtre a la structure suivante :
 
-début,fin,n_ventana 2018-08-01 05:00:00 ,2018-08-01 05:00:29, 1
+| début | fin | n_ventana|
+| --- | --- | --- |
+|2018-08-01 05:00:00 | |2018-08-01 05:00:29| |1|
+
+début,fin,n_ventana 
 
 Chaque enregistrement du dataset doit être associé à un numéro de fenêtre en fonction de la valeur de sa variable "fechamuestreo".
 
