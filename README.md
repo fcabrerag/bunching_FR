@@ -78,8 +78,6 @@ Chaque fenêtre a la structure suivante :
 | --- | --- | --- |
 |2018-08-01 05:00:00 | 2018-08-01 05:00:29| 1|
 
-début,fin,n_ventana 
-
 Chaque enregistrement du dataset doit être associé à un numéro de fenêtre en fonction de la valeur de sa variable "fechamuestreo".
 
 Par exemple, si le bus immatriculé "WB-1026" possède la valeur suivante pour la variable "fechamuestreo" : 2018-08-01 05:00:00
