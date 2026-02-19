@@ -18,7 +18,10 @@ Les données historiques utilisées proviennent du système de géolocalisation 
 ## 1.2- Description des variables:
 Les variables utilisées dans les exemples sont décrites ci-dessous:
 
-patente: identifiant du bus. Elle est composée de quatre lettres suivies de deux chiffres ou de deux lettres suivies de quatre chiffres, selon l'âge du bus(plaque d'immatriculation).
+| Command | Description |
+| --- | --- |
+| patente | identifiant du bus. Elle est composée de quatre lettres suivies de deux chiffres ou de deux lettres suivies de quatre chiffres, selon l'âge du bus(plaque d'immatriculation) |
+| git diff | Show file differences that haven't been staged |
 
 fechamuestreo : date de collecte des données de géolocalisation.
 
