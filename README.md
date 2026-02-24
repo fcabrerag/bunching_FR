@@ -1,7 +1,7 @@
 # Bus Bunching:
 Bonjour, ce dépôt a pour but de présenter mon travail de mémoire de maîtrise sur le phénomène des «Bus Bunching». Il vise à illustrer certaines étapes de l'analyse, de la visualisation, du nettoyage et du traitement des données.
 
-Je n'ai pas utilisé l'IA pour ecrire( je ne suis pas francais(je vis en France depuis 3 ans), en consequant vous pouvez trouver des fautes(je suis vraiment desolé). Mon code date de l'année 2021/2022 , le temps de gloire de stackoverflow et l'apprentissage de code de manière autodidacte. Cette 2026 , je suis en train d'optimiser le code . Donc, je n'ai envie de utiliser les modèles du langage LLM ( chatGPT / Claude). Cette approche me permettra d'apprendre tellement... Malgré la vittesse. C'est parti !
+Je n'ai pas utilisé l'IA pour ecrire( je ne suis pas francais(je vis en France depuis 3 ans). En consequant, vous pouvez trouver des fautes(je suis vraiment desolé). Mon code date de l'année 2021/2022 , le temps de gloire de stackoverflow et l'apprentissage de code de manière autodidacte. Cette 2026 , je suis en train d'optimiser le code . Donc, je n'ai envie de utiliser les modèles du langage LLM ( chatGPT / Claude). Cette approche me permettra d'apprendre tellement... Malgré la vittesse. C'est parti !
 
 
 Ce qui suit explique le contenu de chaque section :
