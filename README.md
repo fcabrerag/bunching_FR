@@ -1,6 +1,9 @@
 # Bus Bunching:
 Bonjour, ce dépôt a pour but de présenter mon travail de mémoire de maîtrise sur le phénomène des «Bus Bunching». Il vise à illustrer certaines étapes de l'analyse, de la visualisation, du nettoyage et du traitement des données.
 
+Je n'ai pas utilisé l'IA pour ecrire( je ne suis pas francais(je vis en France depuis 3 ans), en consequant vous pouvez trouver des fautes(je suis vraiment desolé). Mon code date de l'année 2021/2022 , le temps de gloire de stackoverflow et l'apprentissage de code de manière autodidacte. Cette 2026 , je suis en train d'optimiser le code . Donc, je n'ai envie de utiliser les modèles du langage LLM ( chatGPT / Claude). Cette approche me permettra d'apprendre tellement... Malgré la vittesse. C'est parti !
+
+
 Ce qui suit explique le contenu de chaque section :
 
 1. Contexte et jeu de données : Présente une brève description du problème étudié, ainsi qu’une description du jeu de données.
@@ -91,7 +94,7 @@ En 2021, lors de la rédaction de ma thèse, j’ai mis en place une structure d
 
 **Cependant, chaque exécution prenait environ une minute uniquement pour identifier la fenêtre correspondant à l’ensemble des enregistrements d’une seule journée.**
 
-Compte tenu du volume important de données, cette méthode s’est révélée inefficace.
+Il y avait 6 mois des données . Donc, ce n'etait pas très rapide....
 
 
 Je vous invite à consulter le code afin que vous puissiez voir le problème en détail:
